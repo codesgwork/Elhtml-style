@@ -4,15 +4,71 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/config.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <script src="" defer></script>
     <title>basic element</title>
   </head>
+
   <body>
     <header>
       <h1>HTML Element</h1>
+      <nav>
+        <a href="./views/forms.html"> forms </a>
+        <a href="./views/table.html"> Tables</a>
+        <a href="./views/note.html"> Note</a>
+      </nav>
     </header>
-    
+
+    <!-- main content -->
+    <main class="main-content">
+      <!-- image -->
+      <div class="image-row">
+        <img
+          src="./img/challenges.jpg"
+          alt="img-challenge"
+          style="height: 200px; width: 300px"
+          class="shoes-img"
+        />
+        <img src="./img/laura-jones.jpg" alt="img-laura" class="img-laura" />
+      </div>
+
+      <!-- some text -->
+      <div class="textExpo">
+        <h3>What is HTML?</h3>
+        <p>
+          HTML stands for <strong>H</strong>yper <strong>T</strong>ext
+          <strong>M</strong>arkup <strong>L</strong>anguage
+        </p>
+      </div>
+
+      <div class="listit">
+        <ul>
+          <li>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime,
+            et?
+          </li>
+          <li>list two three ka four</li>
+          <li>make it happened</li>
+          <li>the final list item</li>
+        </ul>
+      </div>
+
+      <aside>
+        <h3>Related post</h3>
+        <li>
+          <img src="./img/related-1.jpg" alt="img1" /><a href="#"
+            >the thing about Js</a
+          >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            necessitatibus?
+          </p>
+        </li>
+      </aside>
+    </main>
+
+    <footer>Copyright &copy; 2027 by The Code Magazine.</footer>
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,0 +1,21 @@
+.image-row img {
+  margin: 2rem;
+}
+.image-row .img-laura {
+  height: 20rem;
+  width: 30rem;
+}
+.textExpo strong {
+  font-weight: bold;
+  font-size: 5rem;
+}
+.main-content {
+  margin: 0 10rem;
+}
+
+.listit {
+  margin-top: 5rem;
+}
+.listit li {
+  list-style-type: none;
+}
